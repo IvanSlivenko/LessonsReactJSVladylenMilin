@@ -1,0 +1,24 @@
+1. Встановлюємо React
+2. Видаляємо в App.js весь jsx
+2. Пишемо свій jsx.
+3. Додаємо папку Todo
+4. Створюємо файл TodoList.js
+5. Пишемо jsx в TodoList.js
+6. Імпортуємо TodoList.js в App.js
+7. Додаємо компонент  <TodoList/> в return App.js
+8. Описуємо стилі в TodoList.js
+9. Додаємо масив todos в App
+10. Прописуємо     todosProps в <TodoList todosProps={todos} /> в App.js
+11. Приймаємо props  в  function TodoList(props) в TodoList.js
+12. Додаємо key={todoI.id} в <TodoItem TodoItemProps={todoI} key={todoI.id} />
+13. npm i prop-types
+
+
+
+URL=https://www.youtube.com/watch?v=xJZa2_aldDs
+Time the end 24:21
+
+
+
+
+ 
