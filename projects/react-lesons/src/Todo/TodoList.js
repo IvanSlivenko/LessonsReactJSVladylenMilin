@@ -16,9 +16,10 @@ function TodoList(propsW) {
         {propsW.TodoListProps.map((todoI, todoIndex) => {
             return (
               <TodoItem
-                TodoItemProps={todoI}
+                todoItemProps={todoI}
                 key={todoI.id}
                 indexTodo={todoIndex}
+                onChangeT={propsW.onToggle}
               />
             );
         })}
@@ -28,8 +29,8 @@ function TodoList(propsW) {
 
 
 TodoList.propTypes = {
-    TodoListProps: PropTypes.array,
-    
+  TodoListProps: PropTypes.arrayOf(PropTypes.object).isRequired,
+  onToggle: PropTypes.func.isRequired
 };
 
 export default TodoList

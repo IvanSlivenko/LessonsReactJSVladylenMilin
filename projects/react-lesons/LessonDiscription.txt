@@ -12,11 +12,15 @@
 11. Приймаємо props  в  function TodoList(props) в TodoList.js
 12. Додаємо key={todoI.id} в <TodoItem TodoItemProps={todoI} key={todoI.id} />
 13. npm i prop-types
+14. Описуємо PropTypes для  TodoList
+15. Описуємо PropTypes для  TodoItem
 
 
 
 URL=https://www.youtube.com/watch?v=xJZa2_aldDs
-Time the end 24:21
+Time the end 39:36
+
+
 
 
 
