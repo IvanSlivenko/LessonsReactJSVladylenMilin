@@ -1,7 +1,9 @@
 
 https://www.youtube.com/watch?v=9KJxaFHotqI&list=RDCMUCg8ss4xW9jASrqWGP30jXiw&index=6
-25:10
+42:08
 
 
 1.useState : state.js
 2.useEffect
+3.useRef
+

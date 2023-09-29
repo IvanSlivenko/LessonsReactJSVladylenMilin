@@ -1,17 +1,21 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 
 
 
 function App() {
-  const [type, setType] = useState('users');
+const [value, setValue] = useState('initial')
   
   return (
-    <div className="totalBox">
-      <h1> Реcурс {type}</h1>
-      <button onClick={() => setType('users')}>Користувачі</button>
-      <button onClick={() => setType('todo')}>Todo</button>
-      <button onClick={() => setType('posts')}>Пости</button>
+    <div>
+      <h1>{value}</h1>
+      <input
+        type="text"
+        onChange={(e) => setValue(e.target.value)}
+        valueP={value}
+      />
+        
+     
     </div>
   );
 }
