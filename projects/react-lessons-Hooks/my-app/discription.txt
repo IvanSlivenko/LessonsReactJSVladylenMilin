@@ -1,6 +1,6 @@
 
 https://www.youtube.com/watch?v=9KJxaFHotqI&list=RDCMUCg8ss4xW9jASrqWGP30jXiw&index=6
-59:01
+01:09:45
 
 
 1.useState : state.js
@@ -12,4 +12,5 @@ https://www.youtube.com/watch?v=9KJxaFHotqI&list=RDCMUCg8ss4xW9jASrqWGP30jXiw&in
 4.useMemo - викликаємо функцію, яка обгорнута useMemo, 
            тільки при зміні елементів, що вкзані в звлежностях useMemo
 
-
+5.useCallback - викликаємо функцію, яка обгорнута useCallback, 
+           тільки при зміні елементів, що вкзані в звлежностях useCallback
