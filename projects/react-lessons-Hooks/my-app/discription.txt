@@ -1,6 +1,6 @@
 
 https://www.youtube.com/watch?v=9KJxaFHotqI&list=RDCMUCg8ss4xW9jASrqWGP30jXiw&index=6
-01:13:27
+01:20:27
 
 
 1.useState : state.js
@@ -14,3 +14,13 @@ https://www.youtube.com/watch?v=9KJxaFHotqI&list=RDCMUCg8ss4xW9jASrqWGP30jXiw&in
 
 5.useCallback - викликаємо функцію, яка обгорнута useCallback, 
            тільки при зміні елементів, що вкзані в звлежностях useCallback
+
+6.useContext -  1. Створюємо context  в App:
+                export const AlertContext = React.createContext()
+
+                2. Обгортаємо весь jsx - шаблон в AlertContext.provider
+                3. Знайомимо з AlertContext компоненти, на які хочемо впливати
+                    const alert = useContext(AlertContext) 
+
+
+
